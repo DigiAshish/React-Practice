@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#nav {
+  margin: 0px auto;
+  position: relative;
+  width: 700px;
+}
+
+#navigation {
+  position: relative;
+  margin: 0px auto;
+  float: left;
+}
+
+#navigation li {
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+}
+
+#navigation li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+
+#navigation ul,
+#navigation ul li ul {
+  visibility: hidden;
+  position: absolute;
+}
+
+#navigation li:hover > ul {
+  visibility: visible;
+}
